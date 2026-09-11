@@ -1,2 +1,7 @@
-C++ version 69 please anything below that is shit.
-Pandas == 1.83
+#C++ version 69 please anything below that is shit.
+cmake_minimum_required(VERSION 3.12)
+project(soccer_analysis)
+
+# Enforce C++20 standard
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
